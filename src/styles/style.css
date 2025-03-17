@@ -20,7 +20,7 @@ body {
 }
 
 .header-container {
-  margin: 2rem 0 0 10rem;
+  margin: 2rem 0 0 15rem;
 }
 
 .menu img {
@@ -31,7 +31,7 @@ body {
 .list-menu {
   position: absolute;
   top: 2.5rem;
-  right: 10rem;
+  right: 15rem;
   display: flex;
   list-style: none;
   gap: 5rem;
@@ -45,4 +45,36 @@ body {
 
 .list-menu a:hover {
   color: var(--grey);
+}
+
+.home {
+  display: flex;
+  width: 100vh;
+  margin: 7rem 0 0 15rem;
+  position: relative;
+}
+
+.home img {
+  width: 30rem;
+}
+
+.home-info {
+  margin: 6rem 15rem;
+}
+
+.home-info::before {
+  position: absolute;
+  content: url(../assets/icon/header-deco.svg);
+  z-index: -1;
+  margin: -2rem 0 0 -4rem;
+}
+
+.home-info h1 {
+  font-size: 5rem;
+  margin-bottom: 2rem;
+  line-height: 1.1;
+}
+
+.home-info p {
+  font-size: 1.5rem;
 }
